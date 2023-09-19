@@ -11,7 +11,7 @@ export default async function Home() {
     <div className="w-screen min-h-screen bg-gradient-to-b from-blue-100 via-blue-200 to-blue-300 ">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center text-center">
-          <div className="flex- items-center">
+          <div className="flex items-center">
             <h1 className="mr-3 text-4xl font-semibold">Chat with any PDF</h1>
             <UserButton afterSignOutUrl='/' />
           </div>
